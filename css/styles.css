@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    /* overflow: hidden; */
+}
+
+.main-layout {
+    position: relative;
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+.tile {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: blue;
+    padding: 20%;
+    position: relative;
+}
+
+.map {
+    position: relative;
+    display: grid;
+}
+
+.karel {
+    width: 70%;
+    visibility: collapse;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.fruit {
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 10%;
+    background-color: blueviolet;
+    border-radius: 10%;
+}
+
+.guide {
+    font-family: monospace;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.guide p {
+    margin: 0.2em 0;
+}
+
+.guide h3 {
+    margin-bottom: 0;
+}
+
+#editor {
+    margin: 0;
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    width: 500px;
+    height: 800px;
+}
+
+#runBtn {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#stopBtn {
+    width: 80px;
+    height: 40px;
+    margin: 0 50px 20px 20px;
+}
+
+#sizeSelect {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
